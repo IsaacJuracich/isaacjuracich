@@ -103,13 +103,13 @@ export default function HireMe() {
         </div>
         <div className="text-1xl text-center">
           <div className={styles.code}>
-            <a href="mailto=isaac.juracich@icloud.com">
+            <a href="mailto:isaac.juracich@icloud.com">
               isaac.juracich@icloud.com
             </a>
           </div>
           <br />
           <div className={styles.code}>
-            <a href="tel=3604104482">3604104482</a>
+            <a href="tel:3604104482">3604104482</a>
           </div>
         </div>
 
