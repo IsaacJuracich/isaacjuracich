@@ -112,8 +112,19 @@ export default function HireMe() {
             <a href="tel:3604104482">3604104482</a>
           </div>
         </div>
-
-        <div className="pt-8">
+        <div
+          className="blur-sm"
+          style={{
+            display: "block",
+            height: "1px",
+            border: "0px",
+            borderTop: "1px solid #ccc",
+            margin: "1em 0px",
+            padding: "0px",
+            width: "75vh",
+          }}
+        />
+        <div className="pt-4">
           <button
             style={{
               borderSpacing: "1em .5em",
@@ -132,28 +143,6 @@ export default function HireMe() {
           >
             <h2 className="text-2xl transform transition duration-500 hover:scale-125 font-semibold">
               Go Back
-            </h2>
-          </button>
-        </div>
-        <div className="pt-4">
-          <button
-            style={{
-              borderSpacing: "1em .5em",
-              borderWidth: "2px",
-              borderImage: "linear-gradient(90deg, #6366f1, #6366f1) 1",
-              width: "65vh",
-              height: "50px",
-            }}
-            data-aos="fade-right"
-            data-aos-duration={700}
-            data-aos-delay={300}
-            data-aos-once="true"
-            onClick={() => {
-              router.push("/projects");
-            }}
-          >
-            <h2 className="text-2xl transform transition duration-500 hover:scale-125 font-semibold">
-              My Projects
             </h2>
           </button>
         </div>
