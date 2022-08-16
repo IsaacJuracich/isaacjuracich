@@ -8,17 +8,10 @@ export function useMyContext() {
 }
 
 export function MyProvider({ children }) {
-  const [isLoggedIn, setLoggedIn] = useState(false);
-  const { user } = useUser({
-    redirectTo: false,
-    redirectIfFound: true,
-  });
-  useEffect(() => {
-    if (user) setLoggedIn(true);
-  }, [user]);
+  const [isBlurred, setBlurred] = useState(false);
 
   return (
-    <MyContext.Provider value={{ isLoggedIn, setLoggedIn }}>
+    <MyContext.Provider value={{ isBlurred, setBlurred }}>
       {children}
     </MyContext.Provider>
   );
