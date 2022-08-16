@@ -66,11 +66,11 @@ export default function HireMe() {
             data-aos-delay={300}
             data-aos-once="true"
           >
-            I'm a Fullstack Developer who's very proficient and passionate about
-            anything I build. Always straight forward with all of my clients. I
-            have a fast turn around time, and reasonably priced rates. There is
-            companies that are taking advantage of people by overpricing them,
-            and lying to them about their services.
+            I&apos;m a Fullstack Developer who&apos;s very proficient and
+            passionate about anything I build. Always straight forward with all
+            of my clients. I have a fast turn around time, and reasonably priced
+            rates. There is companies that are taking advantage of people by
+            overpricing them, and lying to them about their services.
           </h3>
         </div>
         <div

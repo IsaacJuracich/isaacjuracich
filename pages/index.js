@@ -54,9 +54,9 @@ export default function Home() {
             data-aos-delay={300}
             data-aos-once="true"
           >
-            I'm a Fullstack Developer who enjoys learning new technologies. My
-            favorite technologies right now are: Next.js, GraphQL, Node.js, and
-            MongoDB
+            I&apos;m a Fullstack Developer who enjoys learning new technologies.
+            My favorite technologies right now are: Next.js, GraphQL, Node.js,
+            and MongoDB
           </h3>
         </div>
         <div className="pt-8">
