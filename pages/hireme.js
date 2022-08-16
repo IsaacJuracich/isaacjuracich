@@ -4,6 +4,8 @@ import { useRouter } from "next/router";
 import styles from "../styles/Home.module.css";
 
 export default function HireMe() {
+  const router = useRouter();
+
   return (
     <div className={styles.container}>
       <main className={styles.main}>
@@ -70,7 +72,9 @@ export default function HireMe() {
             passionate about anything I build. Always straight forward with all
             of my clients. I have a fast turn around time, and reasonably priced
             rates. There is companies that are taking advantage of people by
-            overpricing them, and lying to them about their services.
+            overpricing them, and lying to them about their services. So i've
+            decided to help out businesses by building them the best website,
+            and mobile apps possible.
           </h3>
         </div>
         <div
@@ -107,7 +111,7 @@ export default function HireMe() {
               isaac.juracich@icloud.com
             </a>
           </div>
-          <br />
+          <div className="pt-4"></div>
           <div className={styles.code}>
             <a href="tel:3604104482">3604104482</a>
           </div>
@@ -133,16 +137,31 @@ export default function HireMe() {
               width: "65vh",
               height: "50px",
             }}
-            data-aos="fade-right"
-            data-aos-duration={700}
-            data-aos-delay={300}
-            data-aos-once="true"
             onClick={() => {
               router.push("/");
             }}
           >
             <h2 className="text-2xl transform transition duration-500 hover:scale-125 font-semibold">
               Go Back
+            </h2>
+          </button>
+        </div>
+
+        <div className="pt-4">
+          <button
+            style={{
+              borderSpacing: "1em .5em",
+              borderWidth: "2px",
+              borderImage: "linear-gradient(90deg, #6366f1, #6366f1) 1",
+              width: "65vh",
+              height: "50px",
+            }}
+            onClick={() => {
+              router.push("/projects");
+            }}
+          >
+            <h2 className="text-2xl transform transition duration-500 hover:scale-125 font-semibold">
+              My Projects
             </h2>
           </button>
         </div>
